@@ -1,0 +1,295 @@
+body{
+    background-color: rgb(32, 27, 27);
+    font-style: bold;
+    font-weight: bold;
+}
+.portfolio{
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+h1{
+    color: rgb(63, 48, 48);
+    font-size: 100px;
+    font-family: sans-serif;
+    margin-left: 500px;
+    position: absolute;
+}
+h2{
+    font-family: sans-serif;
+    color: white;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left: 530px;
+    position: absolute;
+}
+span{
+    color: #ffb400;
+    font-style: bold;
+}
+.container{
+    height: 600px;
+    width: 900px;
+    margin-top: 230px;
+    margin-left: 255px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 270px 270px 270px;
+    grid-template-rows: 160px 160px 160px;
+    gap: 20px;
+
+}
+.box1{
+    background-image: url(https://slimhamdi.net/tunis-tailwind/demos/assets/img/projects/project-1.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    z-index: 3;
+}
+.box2{
+    background-image: url(https://slimhamdi.net/tunis-tailwind/demos/assets/img/projects/project-2.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}
+.box3{
+    background-image: url(https://slimhamdi.net/tunis-tailwind/demos/assets/img/projects/project-3.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}
+.box4{
+    background-image: url(https://slimhamdi.net/tunis-tailwind/demos/assets/img/projects/project-4.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}
+.box5{
+    background-image: url(https://slimhamdi.net/tunis-tailwind/demos/assets/img/projects/project-5.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}
+.box6{
+    background-image: url(https://slimhamdi.net/tunis-tailwind/demos/assets/img/projects/project-6.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}
+.box7{
+    background-image: url(https://slimhamdi.net/tunis-tailwind/demos/assets/img/projects/project-7.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}
+.box8{
+    background-image: url(https://slimhamdi.net/tunis-tailwind/demos/assets/img/projects/project-8.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}
+.box9{
+    background-image: url(https://slimhamdi.net/tunis-tailwind/demos/assets/img/projects/project-9.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}
+h3{
+    margin-top: 75px;
+    margin-left: 40px;
+    color: white;
+    position: absolute;
+    display: none;
+    
+   
+}
+#ha{
+    margin-top: 75px;
+    margin-left: 40px;
+}
+#hb{
+    margin-top: 75px;
+    margin-left: 20px;
+}
+.box1:hover .box1a {
+    height: 100%;
+    width: 100%;
+    background-color: #ffb400;
+    border-radius: 5px;
+}
+.box1:hover h3{
+    display: block;
+}
+.box2:hover .box2a{
+    height: 100%;
+    width: 100%;
+    background-color: #ffb400;
+    border-radius: 5px;
+}
+.box2:hover h3{
+    display: block;
+}
+.box3:hover .box3a{
+    height: 100%;
+    width: 100%;
+    background-color: #ffb400;
+    border-radius: 5px;
+}
+.box3:hover h3{
+    display: block;
+}
+.box4:hover .box4a{
+    height: 100%;
+    width: 100%;
+    background-color: #ffb400;
+    border-radius: 5px;
+}
+.box4:hover h3{
+    display: block;
+}
+.box5:hover .box5a{
+    height: 100%;
+    width: 100%;
+    background-color: #ffb400;
+    border-radius: 5px;
+}
+.box5:hover h3{
+    display: block;
+}
+.box6:hover .box6a{
+    height: 100%;
+    width: 100%;
+    background-color: #ffb400;
+    border-radius: 5px;
+}
+.box6:hover h3{
+    display: block;
+}
+.box7:hover .box7a{
+    height: 100%;
+    width: 100%;
+    background-color: #ffb400;
+    border-radius: 5px;
+}
+.box7:hover h3{
+    display: block;
+}
+.box8:hover .box8a{
+    height: 100%;
+    width: 100%;
+    background-color: #ffb400;
+    border-radius: 5px;
+}
+.box8:hover h3{
+    display: block;
+}
+.box9:hover .box9a{
+    height: 100%;
+    width: 100%;
+    background-color: #ffb400;
+    border-radius: 5px;
+}
+.box9:hover h3{
+    display: block;
+}
+@media(max-width:991px)
+{
+    .container{
+        display: grid;
+        grid-template-columns: 270px 270px;
+        grid-template-rows:  160px 160px 160px 160px 160px;
+    }
+    h1{
+        margin-left: 250px;
+    }
+    h2{
+        margin-left: 280px;
+    }
+}
+@media(max-width:1100px)
+{
+    .portfolio{
+        margin-left: -100px;
+    }
+}
+#set{
+    height: 50px;
+    width: 55px;
+    background-color: white;
+    position: absolute;
+    margin-top: 200px;
+    z-index: 2;
+    border-radius: 5px;
+ 
+}
+#set img{
+    margin-top: 15px;
+    margin-left: 15px;
+    position: absolute;
+    animation: se 1s linear infinite;
+   
+}
+@keyframes se{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.menus{
+    height: 270px;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-left: 1330px;
+    position: absolute;
+    margin-top: 200px;
+    z-index: 6;
+}
+.round{
+    height: 50px;
+    width: 50px;
+    background-color: teal;
+    border-radius: 50%;
+    position: relative;
+}
+    
+.icon{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    color: white;
+    background-color: #ffb400;
+    border-radius: 25px;
+    z-index: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner{
+    height: 50px;
+    width: 50px;
+    background-color: #ffb400;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    transition: .5s;
+    right: 0;
+    font-size: 13px;
+    overflow: hidden;    
+}   
+a{
+    text-decoration: none;
+    color: white;
+} 
+h4{
+    margin: 10px;    
+}
+    
+.round:hover .inner{
+    width: 140px;
+}
+@media(max-width:991px){
+    .menus{
+        display: none;
+    }
+    #set{
+        display: none;
+    }
+}

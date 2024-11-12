@@ -1,0 +1,257 @@
+body{
+    background-color: rgb(32, 27, 27);
+    font-style: bold;
+    font-weight: bold;
+}
+.portfolio{
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+h1{
+    color: rgb(63, 48, 48);
+    font-size: 100px;
+    font-family: sans-serif;
+    margin-left: 500px;
+    position: absolute;
+}
+h2{
+    font-family: sans-serif;
+    color: white;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left: 580px;
+    position: absolute;
+}
+span{
+    color: #ffb400;
+    font-style: bold;
+}
+#set{
+    height: 50px;
+    width: 55px;
+    background-color: white;
+    position: absolute;
+    margin-top: 200px;
+    z-index: 2;
+    border-radius: 5px;
+ 
+}
+#set img{
+    margin-top: 15px;
+    margin-left: 15px;
+    position: absolute;
+    animation: se 1s linear infinite;
+   
+}
+@keyframes se{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+#abt{
+    height: 400px;
+    width: 1200px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 100px;
+    display: flex;
+    color: white;
+}
+#abt1{
+    height: 100%;
+    width: 40%;
+}
+#abt1 h4{
+    font-size: 30px;
+}
+#abt2{
+    height: 100%;
+    width: 60%;
+}
+i{
+    margin-left: 10px;
+}
+input{
+    border: 1px solid white;
+    background-color:  rgb(32, 27, 27);
+    margin-left: 10px;
+    padding: 15px;
+    border-radius: 30px;
+}
+span input{
+    margin-top: 20px;
+    padding-left: 440px;
+    padding-bottom: 200px;
+}
+.btn{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+.btn1{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    color: white;
+    background-color: #ffb400;
+    border-radius: 25px;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 30px;
+    
+}
+.btn2{
+    height: 50px;
+    width: 160px;
+    background-color: transparent;
+    border: 1px solid #ffb400;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20px;
+    position: absolute;
+    transition: .5s;
+    right: 0;
+    font-size: 13px;
+        
+}
+.btn2:hover{
+    background-color: #ffb400;
+
+}
+.btn1:hover .btn2{
+    width: 140px;
+}
+@media(max-width:1100px){
+    #abt{
+        height: 350px;
+        width: 1000px;
+    }
+    #abt1{
+        width: 35%;
+    }
+    h1{
+        margin-left: 300px;
+    }
+    h2{
+        margin-left: 380px;
+    }
+    span input{
+        padding-left: 300px;
+        padding-bottom: 200px;
+    }
+}
+@media(max-width:991px)
+{
+    h1{
+        margin-left: 150px;
+    }
+    h2{
+        margin-left: 280px;
+    }
+    #abt{
+        display: flex;
+        flex-direction: column;
+    }
+    #set{
+        display: none;
+    }
+}
+.menus{
+    height: 270px;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-left: 1350px;
+    position: absolute;
+    margin-top: 200px;
+    z-index: 7;
+}
+    
+.round{
+    height: 50px;
+    width: 50px;
+    background-color: teal;
+    border-radius: 50%;
+    position: relative;
+}
+    
+.icon{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    color: white;
+    background-color: #ffb400;
+    border-radius: 25px;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner{
+    height: 50px;
+    width: 50px;
+    background-color: #ffb400;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    transition: .5s;
+    right: 0;
+    font-size: 11px;
+    overflow: hidden;  
+    margin-left: 10px;  
+}   
+a{
+    text-decoration: none;
+    color: white;
+} 
+h4{
+    margin: 10px;    
+}
+    
+.round:hover .inner{
+    width: 140px;
+}
+@media(max-width:991px){
+    .menus{
+        display: none;
+    }
+    .about{
+        overflow-x: hidden;
+        width: 100%;
+    }
+    h1{
+        font-size: 70px;
+        margin-top: 80px;
+        margin-left: 230px;
+    }
+    h2{
+        font-size: 35px;
+        margin-left: 270px;
+    }
+    #abt2{
+        margin-top: 30px;
+    }
+    #abt2 input{
+        margin-top: 10px;
+        
+    }
+    span input{
+        padding-left: 240px;
+        padding-bottom: 130px;
+    }
+}
